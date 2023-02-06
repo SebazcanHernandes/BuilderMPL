@@ -53,7 +53,7 @@ if check_number(code[num_ind]):
         op_ind += 1
 
 # Code is sent to interpreter
-print(numbers, operators)
+# print(numbers, operators)
 for i in range(len(numbers)):
     run_code += f"{numbers[i]}"
     if i < len(numbers) - 1:
